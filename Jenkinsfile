@@ -1,6 +1,9 @@
 pipeline {
     agent any
 
+    environment {
+    AWS_DEFAULT_REGION = 'us-east-1' // or your region
+  }
     stages {
         stage('Cloning github repo') {
             steps {
