@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "terraform-backend-project-1"
+    bucket = "mydev-project-terraform-sample-batch-aws-devops-2"
     key = "main"
     region = "us-east-1"
     use_lockfile = true
